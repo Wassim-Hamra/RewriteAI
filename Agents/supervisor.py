@@ -1,5 +1,13 @@
+from scraper import Scraper
+from rewriter import Rewriter
+from db_writer import DB_Writer
+
+
 from langgraph_supervisor import create_supervisor
 from langchain_groq import ChatGroq
+from dotenv import load_dotenv
+
+load_dotenv()
 
 model = ChatGroq(model="deepseek-r1-distill-llama-70b")
 

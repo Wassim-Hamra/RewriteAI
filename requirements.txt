@@ -5,4 +5,6 @@ langchain_community
 langchain_groq
 python-dotenv
 pprintpp
+selenium
+webdriver_manager
 pydantic
