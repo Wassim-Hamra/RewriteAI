@@ -1,0 +1,8 @@
+langgraph
+langgraph_supervisor
+langchain
+langchain_community
+langchain_groq
+python-dotenv
+pprintpp
+pydantic
